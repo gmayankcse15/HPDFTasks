@@ -139,7 +139,7 @@ res.send("Get Value");
 
 });
 
-var port =  8002;
+var port =  80;
 app.listen(port, function(req, res){
 
 console.log('App listening on port' + port +'!');
