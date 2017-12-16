@@ -100,7 +100,7 @@ res.send(info);
 });
 
 app.get('/robot.txt', function(req, res){
-res.send("Access Denied");
+res.status(403).send("Access Denied");
 
 
 });
